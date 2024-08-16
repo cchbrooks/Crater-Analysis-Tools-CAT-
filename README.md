@@ -1,5 +1,5 @@
 **Disclaimer:**
-  The current Python model codes are in an Alpha state. Further work is intended to improve detection capability and improve functionality of the model. If any bugs are found, please report them.
+  The current Python model codes are in an Alpha state. Further work is intended to improve detection capability and improve functionality of the model. The files provided are the raw python code to set up the tools. Setup of the tools is still required (see Setup of Tools for instructions). If any bugs are found, please report them.
 
 **Program required to run file:**
    - ArcGIS Pro or ArcGIS Online
@@ -13,4 +13,6 @@
   - Photo-Imagery of the region you wish to investigate.
 
 **Pre-Model Prep:**
-  - We recommend creating a polygon clip file of the region you intend to investigate for your DTM/DEM. This will improve program speed and later clean up of detected features. 
+  - We recommend creating a polygon clip file of the region you intend to investigate for your DTM/DEM. This will improve program speed and later clean up of detected features.
+
+**Setup of Tools**
