@@ -94,7 +94,7 @@ Parameter 4:
     Direction: Output
     Type: Derived (since this is the result of the script, not something the user inputs directly). 
 
-Diameter-Depth Calculator
+External Slope and Internal Basin
 
 Parameter 0:
 
