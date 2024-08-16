@@ -16,3 +16,40 @@
   - We recommend creating a polygon clip file of the region you intend to investigate for your DTM/DEM. This will improve program speed and later clean up of detected features.
 
 **Setup of Tools**
+To install these tools, you will need to create a new Script in your toolbox. Copy the code into the Execution Tab, and then in Parameters, set up the following:
+
+Crater Slope Detection Model:
+Parameter 0:
+
+    Label: Input DTM/DEM
+    Data Type: Raster Dataset
+    Direction: Input
+    Type: Required
+
+Parameter 1:
+
+    Label: Upper Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 2:
+
+    Label: Lower Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 3:
+
+    Label: Output Workspace
+    Data Type: Workspace
+    Direction: Input
+    Type: Required
+
+Parameter 4:
+
+    Label: Output Polygon Features
+    Data Type: Feature Class
+    Direction: Output
+    Type: Derived (since this is the result of the script, not something the user inputs directly). 
