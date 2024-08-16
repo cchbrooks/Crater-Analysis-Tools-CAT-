@@ -15,10 +15,13 @@
 **Pre-Model Prep:**
   - We recommend creating a polygon clip file of the region you intend to investigate for your DTM/DEM. This will improve program speed and later clean up of detected features.
 
+---
+
 **Setup of Tools**
 To install these tools, you will need to create a new Script in your toolbox. Copy the code into the Execution Tab, and then in Parameters, set up the following:
 
 Crater Slope Detection Model:
+
 Parameter 0:
 
     Label: Input DTM/DEM
