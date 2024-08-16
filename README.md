@@ -56,3 +56,77 @@ Parameter 4:
     Data Type: Feature Class
     Direction: Output
     Type: Derived (since this is the result of the script, not something the user inputs directly). 
+
+Diameter-Depth Calculator
+
+Parameter 0:
+
+    Label: Input DTM/DEM
+    Data Type: Raster Dataset
+    Direction: Input
+    Type: Required
+
+Parameter 1:
+
+    Label: Upper Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 2:
+
+    Label: Lower Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 3:
+
+    Label: Output Workspace
+    Data Type: Workspace
+    Direction: Input
+    Type: Required
+
+Parameter 4:
+
+    Label: Output Polygon Features
+    Data Type: Feature Class
+    Direction: Output
+    Type: Derived (since this is the result of the script, not something the user inputs directly). 
+
+Diameter-Depth Calculator
+
+Parameter 0:
+
+    Label: Input DTM/DEM
+    Data Type: Raster Dataset
+    Direction: Input
+    Type: Required
+
+Parameter 1:
+
+    Label: Upper Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 2:
+
+    Label: Lower Threshold
+    Data Type: Double (or Long if it's an integer)
+    Direction: Input
+    Type: Required
+
+Parameter 3:
+
+    Label: Output Workspace
+    Data Type: Workspace
+    Direction: Input
+    Type: Required
+
+Parameter 4:
+
+    Label: Output Polygon Features
+    Data Type: Feature Class
+    Direction: Output
+    Type: Derived (since this is the result of the script, not something the user inputs directly). 
