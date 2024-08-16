@@ -61,72 +61,79 @@ Diameter-Depth Calculator
 
 Parameter 0:
 
-    Label: Input DTM/DEM
-    Data Type: Raster Dataset
+    Label: Crater Polygon
+    Data Type: Feature Class (Polygon)
     Direction: Input
     Type: Required
 
 Parameter 1:
 
-    Label: Upper Threshold
-    Data Type: Double (or Long if it's an integer)
+    Label: Input DTM/DEM
+    Data Type: Raster Dataset
     Direction: Input
     Type: Required
 
 Parameter 2:
 
-    Label: Lower Threshold
-    Data Type: Double (or Long if it's an integer)
-    Direction: Input
+    Label: Output Depth Table
+    Data Type: Table
+    Direction: Output
     Type: Required
 
 Parameter 3:
 
-    Label: Output Workspace
-    Data Type: Workspace
-    Direction: Input
+    Label: Output Diameter Table
+    Data Type: Table
+    Direction: Output
     Type: Required
 
 Parameter 4:
 
-    Label: Output Polygon Features
-    Data Type: Feature Class
-    Direction: Output
-    Type: Derived (since this is the result of the script, not something the user inputs directly). 
+    Label: Workspace
+    Data Type: Workspace
+    Direction: Input
+    Type: Optional (defaults to the scratch workspace)
 
 External Slope and Internal Basin
 
 Parameter 0:
 
-    Label: Input DTM/DEM
-    Data Type: Raster Dataset
+    Label: Crater Polygon
+    Data Type: Feature Class (Polygon)
     Direction: Input
     Type: Required
 
 Parameter 1:
 
-    Label: Upper Threshold
-    Data Type: Double (or Long if it's an integer)
-    Direction: Input
+    Label: Output Slope Zonal Stats (Excel)
+    Data Type: File (Excel)
+    Direction: Output
     Type: Required
 
 Parameter 2:
 
-    Label: Lower Threshold
-    Data Type: Double (or Long if it's an integer)
-    Direction: Input
+    Label: Output Basin Zonal Stats (Excel)
+    Data Type: File (Excel)
+    Direction: Output
     Type: Required
 
 Parameter 3:
 
-    Label: Output Workspace
-    Data Type: Workspace
+    Label: Input Data Raster
+    Data Type: Raster Dataset
     Direction: Input
     Type: Required
 
 Parameter 4:
 
-    Label: Output Polygon Features
-    Data Type: Feature Class
-    Direction: Output
-    Type: Derived (since this is the result of the script, not something the user inputs directly). 
+    Label: Output Folder
+    Data Type: Folder
+    Direction: Input
+    Type: Required
+
+Parameter 5:
+
+    Label: Workspace
+    Data Type: Workspace
+    Direction: Input
+    Type: Optional (defaults to the scratch workspace)
